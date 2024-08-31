@@ -1,0 +1,111 @@
+#hm {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-weight: 700;
+}
+
+
+.hero-section img:hover {
+    border:5px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.heading{
+    color:white;
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+    margin-top: 100px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 35px;
+    justify-content: flex-start;
+    margin: 100px auto;
+}
+
+.product-card{
+    background-color:grey;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(8, 7, 7);
+    transition: transform 0.3s;box: shadow 3s;
+    flex:1 1 300px;
+    max: width 700px; 
+}
+
+.product-card:hover{
+    transform: translateY((-20px));
+    border:10px solid rgb(238,200,10);
+}
+
+.product-card img{
+    width:100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.product-info{
+    padding: 15px;
+    flex: 1;
+}
+
+.product-info h4{
+    font-size: x-large;
+}
+
+.product-info p{
+    font-size: 30;
+    color: #4505d8;
+    margin-bottom: 10px;
+}
+
+.product-info button{
+  background: #FFC0CB; 
+  color: black; 
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
+  font-weight: 600;
+}
+
+.product-info button:hover{
+    background-color: black ;
+}
+
+#go1:hover {
+    content: url(assests/goorejimages/g4.jpg);
+
+}
+#go2:hover {
+    content: url(/assests/goorejimages/g3.jpg);
+
+}
+#go3:hover {
+    content: url(/assests/goorejimages/g6.jpg);
+
+}
+#go4:hover {
+    content: url(/assests/goorejimages/g5.jpg);
+
+}
+#go5:hover {
+    content: url(/assests/goorejimages/g1.jpg);
+
+}
+#go6:hover {
+    content: url(/assests/goorejimages/g2.jpg);
+
+}
+
+.heading {
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+    margin-top: 80px;
+}
